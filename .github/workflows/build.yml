@@ -26,8 +26,6 @@ jobs:
         run: |
           pyinstaller --noconfirm --onefile --windowed ^
             --name "RA4_BullockCart17" ^
-            --icon "assets/icon.ico" ^
-            --add-data "assets;assets" ^
             --hidden-import customtkinter ^
             --hidden-import pyotp ^
             --hidden-import websocket ^
